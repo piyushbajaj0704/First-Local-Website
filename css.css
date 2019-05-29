@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* Music World CSS */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li,
+	blockquote, pre, form, label, legend, table, caption, tbody, tfoot, thead,
+	tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+	footer, header, hgroup, menu, nav, output, section, summary, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+}
+
+
+body {
+		background: url(abstract_colored_texture_background-wide.jpg) fixed;
+}
+
+nav#menu {
+	  			width:80%;
+				height:39px;
+				background-color: #808080;
+				margin:15px auto;
+				border-radius:6px;
+				box-shadow:0px 0px 20px 10px #000000; 
+  }
+  #menu ul {
+	  			display:block;
+				list-style-type:none;
+				margin:0; 
+				padding:0;
+				
+  }
+  #menu ul li {
+	  			margin:0;
+				padding:0;
+  }
+	  			
+  #menu ul li a {
+	  				display:block;
+					float:left;
+ 					width:90px;
+					font-family:Tahoma, Geneva, sans-serif;
+					font-size:18px;
+					text-align:center; 
+				 	color:#F6F6F6;
+					text-decoration:none;
+					margin:0;
+					padding:8.5px; 
+					
+					
+ 
+  }
+  
+#menu ul li a:hover {
+			background-color:#181818;
+			text-shadow:1px 1px 2px  #FF0000;
+			
+}
+
+a.nav1:hover {
+			background-color:#181818;
+			border-bottom-left-radius:6px;
+			border-top-left-radius:6px;
+}
+a.login:hover {
+			background-color: #414141; 
+			
+}
+
+.mainartist {
+			  margin:0 auto;	 
+			  margin-top:3%;
+			  width:90%;
+			  height:900px;
+			  border-top-left-radius:15px;
+			  border-top-right-radius:15px;
+			  box-shadow:-2px 2px 100px 10px #00FF00;
+			  background:url(mainimage.jpg);
+			  background-size:100%;
+			 
+}
+
+.artist {
+			font-family: "Comic Sans MS", "Adobe Caslon Pro", sans-serif;
+			font-size:42px;
+			text-align:center;
+			padding:30px;
+			letter-spacing:1.5px;
+			text-shadow: 1px 1px 9px #00FF00;
+			color:#000;
+}
+
+#artistlist li a {
+			  font-size:28px;
+			  font-family:"Comic Sans MS", "Adobe Caslon Pro", sans-serif;
+			  text-decoration:none;
+			  color:#000;
+}
+#artistlist a:hover { 
+						text-decoration:none;
+						text-shadow:1px 1px 5px #FF0000;
+}
+
+.caterogy {
+			width:80%;
+			margin:0 auto;
+}
+.caterogy a{ 
+			font-variant:small-caps;
+			font-weight:500;
+			font-size:24px;
+			text-align:center; 
+			font-family:Tahoma, Geneva, sans-serif;
+			word-spacing:12px;
+			text-decoration:none;
+			color:#000;
+}
+
+.caterogy a:hover {
+			text-shadow:1px 1px 5px #00FF00;
+			text-decoration:none;
+			background-color:transparent;
+}
+
+.art img {
+		float:left;
+		padding:10px;
+		width:200px;
+		height:200px;
+		box-shadow:3px 3px 50px #000000;
+		border-radius:7px;
+		margin:20px;
+		
+		
+}
+.login {
+		display:block; 
+		
+		border-radius:5px; 
+		background-color:#C0C0C0; 
+		width:110px; 
+		margin: 5px;
+		margin-top:7px;
+		padding: 4px;
+		text-align:center;  
+		font-weight:bold;
+		float:right;
+		margin-right:15px; 
+		font-size:15px; 
+		text-decoration:none; 
+		font-style:oblique;
+		font-family: 
+		color:#000;
+		
+}
+ 
+.form {
+              margin:0 auto;	 
+			  margin-top:3%;
+			  width:90%;
+			  background-color:#FFF;
+			  height:770px;
+			  border-top-left-radius:15px;
+			  border-top-right-radius:15px;
+			  box-shadow:-2px 2px 100px 10px #0080FF;
+			  padding:20px;
+			  float:left;
+			 			
+}
+.account {
+			 font-family:"Comic Sans MS", "Adobe Caslon Pro", sans-serif;
+			 font-size:40px;
+			 padding:35px;
+			 border-bottom-width:thick;
+			 border-bottom-color:#00F;
+			 border-bottom-style:solid;
+			 	
+}
+#form1 {
+			font-family:Tahoma, Geneva, sans-serif;
+			font-size:30px;
+			line-height:2;
+			word-spacing:5px;
+			padding-left:60px;
+			padding-top:30px;
+			
+}
+
+.clear {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+aside.login {
+    float:left;
+    width: 248px;
+    background-color: #da1;
+    margin: 3pt 6pt 3pt 6pt;
+    padding: 6pt 0;
+}
+
+.header  { 
+			font-family:Tahoma, Geneva, sans-serif;
+			font-size:36px; 
+			margin-top:3%;
+			text-align:center;
+			color:black;
+			font-weight:normal;
+			padding-top:25px;
+			padding-bottom:20px;
+			font-style:italic;
+}
+
+.mainalbum {
+			  margin:0 auto;	 
+			  margin-top:3%;
+			  width:90%;
+			  background-color:#FFF;
+			  height:900px;
+			  border-top-left-radius:15px;
+			  border-top-right-radius:15px;
+			  box-shadow:-2px 2px 100px 10px #FF0080;
+}
+
+.main_page {
+			  margin:0 auto;
+			  padding:0;
+			  width:90%;
+			  height:auto;
+			  min-height:650px;
+			  background-color: #E1E1E1;
+			  background-position:center;
+			  border-top-left-radius:15px;
+			  border-top-right-radius:15px;
+			  border-bottom-style:solid; 
+			  box-shadow: 0px 0px 180px #00F900;
+			  background-image:url(cool-background-textures-jj_textures.Jpg);
+			  
+}
+
+.mainvideo {
+			  margin:0 auto; 
+			  margin-top:20px;
+			  padding:0;
+			  width:90%;
+			  height:800px;
+			  border-top-left-radius:10px;
+			  border-top-right-radius:10px;
+			  background-color: #FFF;
+			  box-shadow: 0px 0px 180px #F00000;
+}
+
+#videohead { 
+			  font-family: "Comic Sans MS", "Adobe Caslon Pro", sans-serif; 
+			  font-size:42px; 
+			  text-align: center;
+			  padding:30px; 
+			  word-spacing:2px; 
+			  letter-spacing:2px;
+			  color:#F90000;
+			  text-shadow: 1px 1px 9px #000000;
+			  
+
+}
+
+.vid1  {
+			  font-family:Arial, Helvetica, sans-serif;
+			  font-size:35px;
+			  padding-left:40px; 
+			  padding-top:20px;
+			  font-style:italic;
+	
+}
+.swedish  { 
+			   margin-top:30px;
+			   margin-left:30px;
+			   	
+			   
+}
+
+.genre {
+			margin:0 auto; 
+			margin-top:3%;
+		    padding:20px;
+		    width:86%;
+			min-height:743px;
+			height:auto;
+		    background-color: #E1E1E1;
+			background-image: url(images.jpg);
+			background-attachment:fixed;
+			background-position:center;
+			border-radius:15px;
+			border-bottom-left-radius:0;
+			border-bottom-right-radius:0;
+			border-bottom-style:solid; 
+			box-shadow: 0px 0px 100px 5px #FFFF09;
+			color:#FF0;
+			
+}
+
+.genre p {
+			font-family:Consolas;
+			font-size:25px;
+  			margin:20px;  
+}
+
+.genre summary {
+				  font-family:Tahoma, Geneva, sans-serif;
+				  font-size:30px;
+				  margin:30px;
+				  padding:10px;
+				  color:#F00;
+}
+
+.image  {
+		   float:right;
+		   margin-right:30px;
+		   margin-left:15px;
+		   box-shadow:3px 3px 50px #000000;
+		   border-radius:6px;	
+		   margin-bottom:20px;
+		   padding:8px;	  
+}
+
+
+footer { alignment-baseline:baseline;
+    background: #333;
+}
+
+footer p {
+    color: #ccc;
+    font-size: 70%;
+    font-family: tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+

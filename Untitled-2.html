@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+div {
+   position: relative;
+   background-color: #abc;
+   width: 200px;
+   height: 40px;
+   float: left;
+   margin: 5px;
+}
+</style>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+
+<div class="block"></div>
+ 
+<script>
+$( "#block" ).click(function(e) {
+    
+});(function(){
+  $( ".block:first" ).animate({
+    left: 900
+  }, {
+    duration: 1000,
+    step: function( now, fx ){
+      $( ".block:gt(0)" ).css( "left", now );
+    }
+	
+  });
+  $( "#toggle" ).toggle( "bounce", { times: 2 }, "slow" );
+});
+</script>
+ 
+</body>
+</html>
